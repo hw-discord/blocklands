@@ -462,7 +462,7 @@ command-cooldown-persistence: true
 
 # Whether NPC balances should be listed in balance ranking features such as /balancetop.
 # NPC balances can include features like factions from FactionsUUID plugin.
-npcs-in-balance-ranking: false
+npcs-in-balance-ranking: true
 
 # Allow bulk buying and selling signs when the player is sneaking.
 # This is useful when a sign sells or buys one item at a time and the player wants to sell a bunch at once.
