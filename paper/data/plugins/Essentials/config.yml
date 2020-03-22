@@ -234,15 +234,15 @@ pastebin-createkit: true
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
-  #- balance
-  #- buy
-  #- sell
+  - color
+  - balance
+  - buy
+  - sell
   #- trade
-  #- free
-  #- disposal
-  #- warp
-  #- kit
+  - free
+  - disposal
+  - warp
+  - kit
   #- mail
   #- enchant
   #- gamemode
