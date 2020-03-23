@@ -1,3 +1,5 @@
+# vim:fileencoding=utf-8:foldmethod=marker:softtabstop=2:shiftwidth=2
+#
 # hello_world
 FROM openjdk:8
 
@@ -6,8 +8,8 @@ ARG DIR_DATA=/opt/data
 
 # paper kullanıcısını, data ve server klasörlerini oluştur
 RUN useradd -MUs /bin/bash -u 1000 paper\
-    && mkdir $DIR_SERVER $DIR_DATA/plugins $DIR_DATA/config -p\
-    && chown paper:paper $DIR_SERVER $DIR_DATA -R
+  && mkdir $DIR_SERVER $DIR_DATA/plugins $DIR_DATA/config -p\
+  && chown paper:paper $DIR_SERVER $DIR_DATA -R
 USER paper
 
 # başlangıç scriptini kopyala
@@ -16,7 +18,7 @@ RUN chmod +x $DIR_SERVER/start.sh
 
 # paperspigot'ı indir
 ADD --chown=paper:paper https://papermc.io/api/v1/paper/1.15.2/latest/download\
-    $DIR_SERVER/paper.jar
+  $DIR_SERVER/paper.jar
 
 # server klasöründen data klasörüne linklemeleri yap
 RUN ln -s $DIR_DATA/plugins $DIR_SERVER/plugins\
