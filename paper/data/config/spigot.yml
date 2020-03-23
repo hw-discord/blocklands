@@ -62,7 +62,7 @@ world-settings:
   default:
     verbose: true
     max-tnt-per-tick: 100
-    mob-spawn-range: 8
+    mob-spawn-range: 6
     hopper-amount: 1
     dragon-death-sound-radius: 0
     seed-village: 10387312
