@@ -132,5 +132,5 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     merge-radius:
-      exp: 3.0
-      item: 2.5
+      exp: 6.0
+      item: 3.5
