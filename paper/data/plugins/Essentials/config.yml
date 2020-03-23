@@ -582,7 +582,7 @@ min-money: 0
 economy-log-enabled: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.001
+minimum-pay-amount: 0.25
 
 # The format of currency, excluding symbols. See currency-symbol-format-locale for symbol configuration.
 #
