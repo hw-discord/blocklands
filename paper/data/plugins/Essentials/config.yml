@@ -483,7 +483,7 @@ teleport-back-when-freed-from-jail: true
 
 # Set the timeout, in seconds for players to accept a tpa before the request is cancelled.
 # Set to 0 for no timeout.
-tpa-accept-cancellation: 120
+tpa-accept-cancellation: 60
 
 # Allow players to set hats by clicking on their helmet slot.
 allow-direct-hat: true
