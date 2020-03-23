@@ -41,8 +41,7 @@ messages:
   outdated-server: "{0} sürümünü kullanmadan blocklands'e giriş yapamazsın"
   restart: blocklands birazdan yeniden başlayabilir
 commands:
-  spam-exclusions:
-  - /skill
+  spam-exclusions: []
   silent-commandblock-console: false
   replace-commands:
   - setblock
