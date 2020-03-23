@@ -36,10 +36,10 @@ messages:
   whitelist: "hello_world discord sunucusuna girerek kayıt olmalısın:
               https://discord.gg/NAM8mFZ"
   unknown-command: böyle bir komut yok kardeşim.
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
   server-full: sunucu nasıl olduysa dolmuş
+  outdated-client: "{0} sürümünü kullanmadan blocklands'e giriş yapamazsın"
+  outdated-server: "{0} sürümünü kullanmadan blocklands'e giriş yapamazsın"
 commands:
   spam-exclusions:
   - /skill
