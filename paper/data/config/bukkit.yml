@@ -24,10 +24,10 @@ settings:
   shutdown-message: blocklands birazdan yeniden başlayabilir
   minimum-api: none
 spawn-limits:
-  monsters: 70
-  animals: 10
-  water-animals: 15
-  ambient: 15
+  monsters: 50
+  animals: 8
+  water-animals: 10
+  ambient: 1
 chunk-gc:
   period-in-ticks: 600
 ticks-per:
