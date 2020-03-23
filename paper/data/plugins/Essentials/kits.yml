@@ -11,7 +11,7 @@
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
-    delay: 300
+    delay: 3600
     items:
       - woodensword 1
       - woodenshovel 1
