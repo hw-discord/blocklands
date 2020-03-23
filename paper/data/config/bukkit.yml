@@ -21,7 +21,7 @@ settings:
   connection-throttle: 0500
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: blocklands birazdan yeniden başlayabilir
   minimum-api: none
 spawn-limits:
   monsters: 70
