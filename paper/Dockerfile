@@ -21,15 +21,14 @@ ADD --chown=paper:paper https://papermc.io/api/v1/paper/1.15.2/latest/download\
   $DIR_SERVER/paper.jar
 
 # server klasöründen data klasörüne linklemeleri yap
-RUN ln -s $DIR_DATA/plugins $DIR_SERVER/plugins\
-    && ln -s $DIR_DATA/config/bukkit.yml $DIR_SERVER/bukkit.yml\
-    && ln -s $DIR_DATA/config/commands.yml $DIR_SERVER/commands.yml\
-    && ln -s $DIR_DATA/config/help.yml $DIR_SERVER/help.yml\
-    && ln -s $DIR_DATA/config/paper.yml $DIR_SERVER/paper.yml\
-    && ln -s $DIR_DATA/config/permissions.yml $DIR_SERVER/permissions.yml\
-    && ln -s $DIR_DATA/config/server.properties $DIR_SERVER/server.properties\
-    && ln -s $DIR_DATA/config/spigot.yml $DIR_SERVER/spigot.yml\
-    && ln -s $DIR_DATA/config/spigot.yml $DIR_SERVER/wepif.yml
+RUN cd $DIR_DATA/config\
+  && ln -s bukkit.yml commands.yml help.yml paper.yml permissions.yml server.properties\
+           spigot.yml wepif.yml $DIR_SERVER\
+  && cd $DIR_DATA/plugins
+  && ln -s bStats $DIR_SERVER/plugins/bStats\
+  && ln -s Essentials/motd.txt Essentials/custom_items.yml Essentials/upgrades-done.yml\
+           Essentials/kits.yml Essentials/worth.yml Essentials/config.yml\
+           Essentials/warps Essentials/items.json $DIR_SERVER/plugins/Essentials
 
 VOLUME $DIR_SERVER
 VOLUME $DIR_DATA
