@@ -116,12 +116,12 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     entity-activation-range:
-      animals: 32
-      monsters: 32
+      animals: 18
+      monsters: 28
       raiders: 48
-      misc: 16
-      water: 16
-      tick-inactive-villagers: true
+      misc: 8
+      water: 10
+      tick-inactive-villagers: false
     entity-tracking-range:
       players: 48
       animals: 48
