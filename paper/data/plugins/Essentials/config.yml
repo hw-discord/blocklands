@@ -666,8 +666,8 @@ newbies:
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
-  #kit: ''
-  kit: tools
+  #kit: tools
+  kit: ''
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
