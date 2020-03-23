@@ -330,7 +330,7 @@ freeze-afk-players: false
 
 # When the player is AFK, should he be able to pickup items?
 # Enable this, when you don't want people idling in mob traps.
-disable-item-pickup-while-afk: false
+disable-item-pickup-while-afk: true
 
 # This setting controls if a player is marked as active on interaction.
 # When this setting is false, the player would need to manually un-AFK using the /afk command.
