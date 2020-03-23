@@ -48,7 +48,7 @@ commands:
   - summon
   - testforblock
   - tellraw
-  tab-complete: 0
+  tab-complete: 2
   send-namespaced: true
   log: true
 advancements:
