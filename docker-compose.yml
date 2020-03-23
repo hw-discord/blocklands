@@ -6,7 +6,7 @@ services:
     container_name: paper
     stdin_open: true
     tty: true
-    restart: always
+    restart: on-failure
     volumes:
       - paper:/opt/minecraft
       - ./paper/data:/opt/data
