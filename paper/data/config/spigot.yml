@@ -33,9 +33,9 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  unknown-command: Unknown command. Type "/help" for help.
   whitelist: "hello_world discord sunucusuna girerek kayıt olmalısın:
               https://discord.gg/NAM8mFZ"
+  unknown-command: böyle bir komut yok kardeşim.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
