@@ -39,13 +39,12 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
 messages:
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
+  no-permission: böyle bir komut yok kardeşim.
   kick:
     authentication-servers-down: ''
-    connection-throttle: Connection throttled! Please wait before reconnecting.
-    flying-player: Flying is not enabled on this server
-    flying-vehicle: Flying is not enabled on this server
+    connection-throttle: tekrar bağlanmaya çalışmadan önce birazcık beklemeye ne dersin?
+    flying-player: beep! beep!
+    flying-vehicle: beep! beep!
 timings:
   enabled: true
   verbose: true
