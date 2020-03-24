@@ -86,7 +86,7 @@ world-settings:
     seed-based-feature-search: true
     nether-ceiling-void-damage-height: 0
     water-over-lava-flow-speed: 5
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 4
     bed-search-radius: 1
     use-faster-eigencraft-redstone: true
     fix-zero-tick-instant-grow-farms: true
