@@ -118,7 +118,7 @@ world-settings:
       disable-chest-cat-detection: true
       shield-blocking-delay: 5
       nerf-pigmen-from-nether-portals: false
-      disable-end-credits: false
+      disable-end-credits: true
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
       disable-relative-projectile-velocity: false
