@@ -100,7 +100,7 @@ world-settings:
     non-player-arrow-despawn-rate: 120
     creative-arrow-despawn-rate: 60
     iron-golems-can-spawn-in-air: false
-    armor-stands-tick: true
+    armor-stands-tick: false
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     baby-zombie-movement-modifier: 0.5
