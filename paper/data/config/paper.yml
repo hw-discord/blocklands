@@ -58,7 +58,7 @@ timings:
 world-settings:
   default:
     remove-corrupt-tile-entities: false
-    max-entity-collisions: 8
+    max-entity-collisions: 5
     disable-creeper-lingering-effect: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
