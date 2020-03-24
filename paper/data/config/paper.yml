@@ -94,7 +94,7 @@ world-settings:
     portal-search-radius: 128
     portal-create-radius: 16
     disable-explosion-knockback: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 3
     parrots-are-unaffected-by-player-movement: false
     prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
