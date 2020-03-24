@@ -97,8 +97,8 @@ world-settings:
     container-update-tick-rate: 3
     parrots-are-unaffected-by-player-movement: false
     prevent-tnt-from-moving-in-water: false
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 120
+    creative-arrow-despawn-rate: 60
     iron-golems-can-spawn-in-air: false
     armor-stands-tick: true
     spawner-nerfed-mobs-should-jump: false
