@@ -67,7 +67,7 @@ world-settings:
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     experience-merge-max-value: -1
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     max-auto-save-chunks-per-tick: 24
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
