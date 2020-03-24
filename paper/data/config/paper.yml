@@ -88,7 +88,7 @@ world-settings:
     water-over-lava-flow-speed: 5
     grass-spread-tick-rate: 1
     bed-search-radius: 1
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     fix-zero-tick-instant-grow-farms: true
     allow-non-player-entities-on-scoreboards: false
     portal-search-radius: 128
