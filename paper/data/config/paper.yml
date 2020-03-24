@@ -107,7 +107,7 @@ world-settings:
     zombie-villager-infection-chance: -1.0
     allow-leashing-undead-horse: false
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 2
     alt-item-despawn-rate:
       enabled: true
       items:
