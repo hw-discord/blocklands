@@ -125,7 +125,7 @@ world-settings:
       disable-unloaded-chunk-enderpearl-exploit: true
     hopper:
       cooldown-when-full: true
-      disable-move-event: false
+      disable-move-event: true
     max-growth-height:
       cactus: 3
       reeds: 3
