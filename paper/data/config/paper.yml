@@ -109,9 +109,10 @@ world-settings:
     all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 1
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
         COBBLESTONE: 300
+        NETHERRACK: 300
     game-mechanics:
       disable-pillager-patrols: false
       scan-for-legacy-ender-dragon: true
