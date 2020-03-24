@@ -72,7 +72,7 @@ world-settings:
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
-    per-player-mob-spawns: false
+    per-player-mob-spawns: true
     fixed-chunk-inhabited-time: -1
     optimize-explosions: false
     disable-thunder: false
