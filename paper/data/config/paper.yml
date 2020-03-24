@@ -152,7 +152,7 @@ world-settings:
       refresh-min: 12h
       refresh-max: 2d
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       chunk-edge-mode: 2
       max-chunk-section-index: 3
@@ -172,7 +172,6 @@ world-settings:
       - ender_chest
       replacement-blocks:
       - stone
-      - oak_planks
     generator-settings:
       flat-bedrock: false
     squid-spawn-height:
