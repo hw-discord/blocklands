@@ -133,8 +133,8 @@ world-settings:
       MinimumTicks: 100
       MaximumTicks: 600
     despawn-ranges:
-      soft: 32
-      hard: 128
+      soft: 28
+      hard: 96
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
