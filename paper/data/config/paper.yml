@@ -115,7 +115,7 @@ world-settings:
     game-mechanics:
       disable-pillager-patrols: false
       scan-for-legacy-ender-dragon: true
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       shield-blocking-delay: 5
       nerf-pigmen-from-nether-portals: false
       disable-end-credits: false
