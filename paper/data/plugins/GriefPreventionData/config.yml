@@ -56,7 +56,7 @@ GriefPrevention:
     FireDamagesInClaims: false
     LecternReadingRequiresAccessTrust: true
   Spam:
-    Enabled: true
+    Enabled: false
     LoginCooldownSeconds: 60
     LoginLogoutNotificationsPerMinute: 5
     ChatSlashCommands: /me;/global;/local
