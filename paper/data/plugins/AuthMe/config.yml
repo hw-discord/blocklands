@@ -207,7 +207,7 @@ settings:
         # Maximum Join authorized by IP
         maxJoinPerIp: 0
         # AuthMe will NEVER teleport players if set to true!
-        noTeleport: false
+        noTeleport: true
         # Regex syntax for allowed chars in passwords. The default [!-~] allows all visible ASCII
         # characters, which is what we recommend. See also http://asciitable.com
         # You can test your regex with https://regex101.com
