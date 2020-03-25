@@ -297,7 +297,7 @@ settings:
     # {MAXPLAYERS}: display server slots, {IP}: player ip, {LOGINS}: number of players logged,
     # {WORLD}: player current world, {SERVER}: server name
     # {VERSION}: get current bukkit version, {COUNTRY}: player country
-    useWelcomeMessage: true
+    useWelcomeMessage: false
     # Broadcast the welcome message to the server or only to the player?
     # set true for server or false for player
     broadcastWelcomeMessage: false
