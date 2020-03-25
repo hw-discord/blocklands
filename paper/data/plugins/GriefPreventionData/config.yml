@@ -29,7 +29,7 @@ GriefPrevention:
     AccruedIdlePercent: 0
     AbandonReturnRatio: 0.98
     AutomaticNewPlayerClaimsRadius: 0
-    ExtendIntoGroundDistance: 5
+    ExtendIntoGroundDistance: 256
     MinimumWidth: 5
     MinimumArea: 100
     MaximumDepth: 0
