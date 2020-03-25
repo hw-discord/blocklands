@@ -28,7 +28,7 @@ GriefPrevention:
     Accrued Idle Threshold: 1
     AccruedIdlePercent: 0
     AbandonReturnRatio: 0.98
-    AutomaticNewPlayerClaimsRadius: 4
+    AutomaticNewPlayerClaimsRadius: 0
     ExtendIntoGroundDistance: 5
     MinimumWidth: 5
     MinimumArea: 100
