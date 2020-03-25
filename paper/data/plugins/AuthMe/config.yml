@@ -269,7 +269,7 @@ settings:
         - help
     registration:
         # Enable registration on the server?
-        enabled: true
+        enabled: false
         # Send every X seconds a message to a player to
         # remind him that he has to login/register
         messageInterval: 5
