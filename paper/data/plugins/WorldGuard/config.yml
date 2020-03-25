@@ -65,7 +65,7 @@ default:
 physics:
     no-physics-gravel: false
     no-physics-sand: false
-    vine-like-rope-ladders: false
+    vine-like-rope-ladders: true
     allow-portal-anywhere: false
     disable-water-damage-blocks: []
 ignition:
