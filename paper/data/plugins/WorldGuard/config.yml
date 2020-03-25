@@ -47,7 +47,7 @@ event-handling:
     ignore-hopper-item-move-events: false
 protection:
     item-durability: true
-    remove-infinite-stacks: false
+    remove-infinite-stacks: true
     disable-xp-orb-drops: false
     disable-obsidian-generators: false
 gameplay:
