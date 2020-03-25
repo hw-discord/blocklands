@@ -119,8 +119,8 @@ chest-protection:
     enable: false
     disable-off-check: false
 crops:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+    disable-creature-trampling: true
+    disable-player-trampling: true
 weather:
     prevent-lightning-strike-blocks: []
     disable-lightning-strike-fire: false
