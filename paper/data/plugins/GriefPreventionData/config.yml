@@ -107,7 +107,7 @@ GriefPrevention:
   AdminsGetSignNotifications: false
   SmartBan: false
   Mute New Players Using Banned Words: false
-  MaxPlayersPerIpAddress: 3
+  MaxPlayersPerIpAddress: 10
   Siege:
     Worlds: []
     BreakableBlocks:
