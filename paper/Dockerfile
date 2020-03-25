@@ -21,16 +21,6 @@ RUN chmod +x $DIR_SERVER/start.sh
 ADD --chown=paper:paper https://papermc.io/api/v1/paper/1.15.2/latest/download\
   $DIR_SERVER/paper.jar
 
-# server klasöründen data klasörüne linklemeleri yap
-RUN cd $DIR_DATA/config\
-  && ln -s bukkit.yml commands.yml help.yml paper.yml permissions.yml server.properties\
-           spigot.yml wepif.yml $DIR_SERVER\
-  && cd $DIR_DATA/plugins
-  && ln -s bStats $DIR_SERVER/plugins/bStats\
-  && ln -s Essentials/motd.txt Essentials/custom_items.yml Essentials/upgrades-done.yml\
-           Essentials/kits.yml Essentials/worth.yml Essentials/config.yml\
-           Essentials/warps Essentials/items.json $DIR_SERVER/plugins/Essentials
-
 VOLUME $DIR_SERVER
 VOLUME $DIR_DATA
 
