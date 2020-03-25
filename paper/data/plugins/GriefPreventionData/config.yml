@@ -105,8 +105,8 @@ GriefPrevention:
   FireDestroys: false
   AdminsGetWhispers: true
   AdminsGetSignNotifications: false
-  SmartBan: true
   Mute New Players Using Banned Words: true
+  SmartBan: false
   MaxPlayersPerIpAddress: 3
   Siege:
     Worlds: []
