@@ -51,7 +51,7 @@ GriefPrevention:
     CommandsRequiringAccessTrust: /sethome
     DeliverManuals: false
     ManualDeliveryDelaySeconds: 30
-    RavagersBreakBlocks: true
+    RavagersBreakBlocks: false
     FireSpreadsInClaims: false
     FireDamagesInClaims: false
     LecternReadingRequiresAccessTrust: true
