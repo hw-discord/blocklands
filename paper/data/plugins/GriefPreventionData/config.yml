@@ -43,7 +43,7 @@ GriefPrevention:
         ExceptWhenOwnerHasTotalClaimBlocks: 10000
         ExceptWhenOwnerHasBonusClaimBlocks: 5000
       AutomaticNatureRestoration:
-        SurvivalWorlds: false
+        SurvivalWorlds: true
     AllowTrappedInAdminClaims: false
     MaximumNumberOfClaimsPerPlayer: 0
     CreationRequiresWorldGuardBuildPermission: true
