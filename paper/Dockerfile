@@ -1,5 +1,3 @@
-# vim:fileencoding=utf-8:foldmethod=marker:softtabstop=2:shiftwidth=2
-#
 # hello_world
 FROM openjdk:8
 

@@ -1,5 +1,3 @@
-# vim:fileencoding=utf-8:foldmethod=marker:softtabstop=2:shiftwidth=2
-#
 #!/bin/bash
 
 # sunucu config'lerini linkle
