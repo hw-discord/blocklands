@@ -104,7 +104,7 @@ GriefPrevention:
   FireSpreads: false
   FireDestroys: false
   AdminsGetWhispers: true
-  AdminsGetSignNotifications: true
+  AdminsGetSignNotifications: false
   SmartBan: true
   Mute New Players Using Banned Words: true
   MaxPlayersPerIpAddress: 3
