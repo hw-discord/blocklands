@@ -98,7 +98,7 @@ GriefPrevention:
   BlockSurfaceCreeperExplosions: true
   BlockSurfaceOtherExplosions: true
   LimitSkyTrees: true
-  LimitTreeGrowth: false
+  LimitTreeGrowth: true
   CheckPistonMovement: true
   LimitPistonsToLandClaims: true
   FireSpreads: false
