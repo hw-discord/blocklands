@@ -25,7 +25,7 @@ GriefPrevention:
       Default: 10
     Max Accrued Claim Blocks:
       Default: 2000
-    Accrued Idle Threshold: 0
+    Accrued Idle Threshold: 1
     AccruedIdlePercent: 0
     AbandonReturnRatio: 1.0
     AutomaticNewPlayerClaimsRadius: 4
