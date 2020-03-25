@@ -78,7 +78,7 @@ GriefPrevention:
     AllowCombatItemDrop: false
     BlockedSlashCommands: /home;/vanish;/spawn;/tpa
     ProtectPlayersInLandClaims:
-      PlayerOwnedClaims: true
+      PlayerOwnedClaims: false
       AdministrativeClaims: true
       AdministrativeSubdivisions: true
     AllowLavaDumpingNearOtherPlayers:
