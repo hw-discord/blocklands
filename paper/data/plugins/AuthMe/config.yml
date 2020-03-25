@@ -118,7 +118,7 @@ settings:
     # typical communication with the database to happen synchronously, set this to false
     useAsyncTasks: true
     # The name of the server, used in some placeholders.
-    serverName: Your Minecraft Server
+    serverName: blocklands
     restrictions:
         # Can not authenticated players chat?
         # Keep in mind that this feature also blocks all commands not
