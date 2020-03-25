@@ -37,7 +37,7 @@ GriefPrevention:
     ModificationTool: GOLDEN_SHOVEL
     Expiration:
       ChestClaimDays: 7
-      UnusedClaimDays: 14
+      UnusedClaimDays: 5
       AllClaims:
         DaysInactive: 60
         ExceptWhenOwnerHasTotalClaimBlocks: 10000
