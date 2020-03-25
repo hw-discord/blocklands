@@ -451,7 +451,7 @@ Security:
         logConsole: true
     captcha:
         # Enable captcha when a player uses wrong password too many times
-        useCaptcha: false
+        useCaptcha: true
         # Max allowed tries before a captcha is required
         maxLoginTry: 5
         # Captcha length
