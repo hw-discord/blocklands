@@ -7,7 +7,7 @@
 registration:
   register_request: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
   command_usage: '&cUsage: /register <password> <ConfirmPassword>'
-  reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
+  reg_only: 'hello_world discord sunucusuna girerek kayıt olmalısın: https://discord.gg/NAM8mFZ'
   kicked_admin_registered: 'An admin just registered you; please log in again.'
   success: '&2Successfully registered!'
   disabled: '&cIn-game registration is disabled!'
