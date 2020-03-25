@@ -176,7 +176,7 @@ settings:
         # Ban unknown IPs trying to log in with a restricted username?
         banUnsafedIP: false
         # Should unregistered players be kicked immediately?
-        kickNonRegistered: false
+        kickNonRegistered: true
         # Should players be kicked on wrong password?
         kickOnWrongPassword: true
         # Should not logged in players be teleported to the spawn?
