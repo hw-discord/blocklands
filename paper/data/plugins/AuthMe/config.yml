@@ -1,12 +1,12 @@
 DataSource:
     # What type of database do you want to use?
     # Valid values: SQLITE, MYSQL, POSTGRESQL
-    backend: SQLITE
+    backend: MYSQL
     # Enable the database caching system, should be disabled on bungeecord environments
     # or when a website integration is being used.
-    caching: true
+    caching: false
     # Database host address
-    mySQLHost: 127.0.0.1
+    mySQLHost: paper_db
     # Database port
     mySQLPort: '3306'
     # Connect to MySQL database over SSL
@@ -16,9 +16,9 @@ DataSource:
     # Set this option to false at your own risk if and only if you know what you're doing
     mySQLCheckServerCertificate: true
     # Username to connect to the MySQL database
-    mySQLUsername: authme
+    mySQLUsername: paper
     # Password to connect to the MySQL database
-    mySQLPassword: '12345'
+    mySQLPassword: 'doesntmattereither'
     # Database Name, use with converters or as SQLITE database name
     mySQLDatabase: authme
     # Table of the database
