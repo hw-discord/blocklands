@@ -5,6 +5,7 @@ FROM openjdk:8
 
 ARG DIR_SERVER=/opt/minecraft
 ARG DIR_DATA=/opt/data
+ENV DIR_SERVER=$DIR_SERVER DIR_DATA=$DIR_DATA
 
 # paper kullanıcısını, data ve server klasörlerini oluştur
 RUN useradd -MUs /bin/bash -u 1000 paper\
