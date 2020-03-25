@@ -22,6 +22,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: doesntmatter
       MYSQL_USER: paper
+      MYSQL_DATABASE: authme
       MYSQL_PASSWORD: doesntmattereither
     volumes:
       - db:/var/lib/mysql
