@@ -90,7 +90,7 @@ mobs:
     block-fireball-block-damage: false
     anti-wolf-dumbness: false
     allow-tamed-spawns: true
-    disable-enderman-griefing: false
+    disable-enderman-griefing: true
     disable-snowman-trails: false
     block-painting-destroy: false
     block-item-frame-destroy: false
