@@ -49,7 +49,7 @@ GriefPrevention:
     CreationRequiresWorldGuardBuildPermission: true
     VillagerTradingRequiresPermission: true
     CommandsRequiringAccessTrust: /sethome
-    DeliverManuals: true
+    DeliverManuals: false
     ManualDeliveryDelaySeconds: 30
     RavagersBreakBlocks: true
     FireSpreadsInClaims: false
