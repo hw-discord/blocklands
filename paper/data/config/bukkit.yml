@@ -18,7 +18,7 @@ settings:
   permissions-file: permissions.yml
   update-folder: update
   plugin-profiling: false
-  connection-throttle: 0500
+  connection-throttle: 500
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: blocklands birazdan yeniden başlayabilir
