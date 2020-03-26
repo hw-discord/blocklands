@@ -62,7 +62,7 @@ change-playerlist: true
 # When this option is enabled, player prefixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
-#add-prefix-in-playerlist: true
+add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher. 
