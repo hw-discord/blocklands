@@ -258,7 +258,7 @@ redis:
 #   => replace      durations will be replaced if the new duration is later than the current
 #                   expiration
 #   => deny         the command will just fail if you try to add another node with the same expiry
-temporary-add-behaviour: deny
+temporary-add-behaviour: accumulate
 
 # Controls how LuckPerms will determine a users "primary" group.
 #
