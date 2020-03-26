@@ -18,9 +18,9 @@ DataSource:
     # Username to connect to the MySQL database
     mySQLUsername: paper
     # Password to connect to the MySQL database
-    mySQLPassword: 'doesntmattereither'
+    mySQLPassword: doesntmattereither
     # Database Name, use with converters or as SQLITE database name
-    mySQLDatabase: authme
+    mySQLDatabase: minecraft
     # Table of the database
     mySQLTablename: authme
     # Column of IDs to sort data
