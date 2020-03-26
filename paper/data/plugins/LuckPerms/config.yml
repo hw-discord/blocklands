@@ -336,7 +336,7 @@ meta-formatting:
   prefix:
     format:
       - "highest"
-    duplicates: first-only
+    duplicates: retain-all
     start-spacer: ""
     middle-spacer: " "
     end-spacer: ""
