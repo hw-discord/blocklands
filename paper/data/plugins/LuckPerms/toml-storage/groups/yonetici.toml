@@ -1,0 +1,88 @@
+name = "yonetici"
+
+[[permissions]]
+  permission = "displayname.yönetici"
+  value = true
+
+[[permissions]]
+  permission = "essentials.ban"
+  value = true
+
+[[permissions]]
+  permission = "essentials.ban.exempt"
+  value = true
+
+[[permissions]]
+  permission = "essentials.chat.spy"
+  value = true
+
+[[permissions]]
+  permission = "essentials.hat"
+  value = true
+
+[[permissions]]
+  permission = "essentials.helpop.receive"
+  value = true
+
+[[permissions]]
+  permission = "essentials.jail.exempt"
+  value = true
+
+[[permissions]]
+  permission = "essentials.jails"
+  value = true
+
+[[permissions]]
+  permission = "essentials.kick"
+  value = true
+
+[[permissions]]
+  permission = "essentials.kick.exempt"
+  value = true
+
+[[permissions]]
+  permission = "essentials.list.hidden"
+  value = true
+
+[[permissions]]
+  permission = "essentials.mail.sendall"
+  value = true
+
+[[permissions]]
+  permission = "essentials.me"
+  value = true
+
+[[permissions]]
+  permission = "essentials.msg.multiple"
+  value = true
+
+[[permissions]]
+  permission = "essentials.mute"
+  value = true
+
+[[permissions]]
+  permission = "essentials.mute.exempt"
+  value = true
+
+[[permissions]]
+  permission = "essentials.sleepingignored"
+  value = true
+
+[[permissions]]
+  permission = "essentials.togglejail"
+  value = true
+
+[[permissions]]
+  permission = "essentials.unban"
+  value = true
+
+[[permissions]]
+  permission = "weight.1"
+  value = true
+
+[[parents]]
+  group = "default"
+
+[[prefixes]]
+  prefix = "&c&l[GM]&r"
+  priority = 1

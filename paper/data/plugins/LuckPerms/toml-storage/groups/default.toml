@@ -1,0 +1,241 @@
+name = "default"
+
+[[permissions]]
+  permission = "authme.player.*"
+  value = true
+
+[[permissions]]
+  permission = "displayname.oyuncu"
+  value = true
+
+[[permissions]]
+  permission = "essentials.afk"
+  value = true
+
+[[permissions]]
+  permission = "essentials.afk.auto"
+  value = true
+
+[[permissions]]
+  permission = "essentials.back.ondeath"
+  value = false
+
+[[permissions]]
+  permission = "essentials.backup"
+  value = true
+
+[[permissions]]
+  permission = "essentials.balance"
+  value = true
+
+[[permissions]]
+  permission = "essentials.balancetop"
+  value = true
+
+[[permissions]]
+  permission = "essentials.ban.notify"
+  value = true
+
+[[permissions]]
+  permission = "essentials.chat.question"
+  value = true
+
+[[permissions]]
+  permission = "essentials.chat.shout"
+  value = true
+
+[[permissions]]
+  permission = "essentials.chat.url"
+  value = true
+
+[[permissions]]
+  permission = "essentials.clearinventory"
+  value = true
+
+[[permissions]]
+  permission = "essentials.compass"
+  value = true
+
+[[permissions]]
+  permission = "essentials.delhome"
+  value = true
+
+[[permissions]]
+  permission = "essentials.disposal"
+  value = true
+
+[[permissions]]
+  permission = "essentials.getpos"
+  value = true
+
+[[permissions]]
+  permission = "essentials.help"
+  value = true
+
+[[permissions]]
+  permission = "essentials.home"
+  value = true
+
+[[permissions]]
+  permission = "essentials.home.bed"
+  value = true
+
+[[permissions]]
+  permission = "essentials.home.compass"
+  value = true
+
+[[permissions]]
+  permission = "essentials.ignore"
+  value = true
+
+[[permissions]]
+  permission = "essentials.itemdb"
+  value = true
+
+[[permissions]]
+  permission = "essentials.joinfullserver"
+  value = true
+
+[[permissions]]
+  permission = "essentials.kick.notify"
+  value = true
+
+[[permissions]]
+  permission = "essentials.kit"
+  value = true
+
+[[permissions]]
+  permission = "essentials.kits.tools"
+  value = true
+
+[[permissions]]
+  permission = "essentials.list"
+  value = true
+
+[[permissions]]
+  permission = "essentials.mail"
+  value = true
+
+[[permissions]]
+  permission = "essentials.mail.send"
+  value = true
+
+[[permissions]]
+  permission = "essentials.motd"
+  value = true
+
+[[permissions]]
+  permission = "essentials.msg"
+  value = true
+
+[[permissions]]
+  permission = "essentials.msgtoggle"
+  value = true
+
+[[permissions]]
+  permission = "essentials.mute.notify"
+  value = true
+
+[[permissions]]
+  permission = "essentials.pay"
+  value = true
+
+[[permissions]]
+  permission = "essentials.paytoggle"
+  value = true
+
+[[permissions]]
+  permission = "essentials.ping"
+  value = true
+
+[[permissions]]
+  permission = "essentials.realname"
+  value = true
+
+[[permissions]]
+  permission = "essentials.seen"
+  value = true
+
+[[permissions]]
+  permission = "essentials.seen.banreason"
+  value = true
+
+[[permissions]]
+  permission = "essentials.sethome"
+  value = true
+
+[[permissions]]
+  permission = "essentials.sethome.bed"
+  value = true
+
+[[permissions]]
+  permission = "essentials.showkit"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.color"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.balance"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.color"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.disposal"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.free"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.kit"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.sell"
+  value = true
+
+[[permissions]]
+  permission = "essentials.signs.use.warp"
+  value = true
+
+[[permissions]]
+  permission = "essentials.spawn"
+  value = true
+
+[[permissions]]
+  permission = "essentials.suicide"
+  value = true
+
+[[permissions]]
+  permission = "essentials.tpa"
+  value = true
+
+[[permissions]]
+  permission = "essentials.tpaccept"
+  value = true
+
+[[permissions]]
+  permission = "essentials.tpahere"
+  value = true
+
+[[permissions]]
+  permission = "essentials.tpcancel"
+  value = true
+
+[[permissions]]
+  permission = "essentials.tpdeny"
+  value = true
+
+[[permissions]]
+  permission = "essentials.tptoggle"
+  value = true
+
+[[permissions]]
+  permission = "griefprevention.visualizenearbyclaims"
+  value = true
