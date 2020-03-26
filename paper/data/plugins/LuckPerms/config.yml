@@ -41,7 +41,7 @@ server: global
 # - To get around this, you can use a player's uuid directly in the command, or enable this option.
 # - When this is set to 'true', the server facility is used. This may use a number of methods,
 #   including checking the servers local cache, or making a request to the Mojang API.
-use-server-uuid-cache: false
+use-server-uuid-cache: true
 
 
 
