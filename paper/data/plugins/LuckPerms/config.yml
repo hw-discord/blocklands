@@ -339,7 +339,7 @@ meta-formatting:
     duplicates: retain-all
     start-spacer: ""
     middle-spacer: " "
-    end-spacer: ""
+    end-spacer: " "
   suffix:
     format:
       - "highest"
