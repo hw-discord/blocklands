@@ -28,6 +28,10 @@ services:
       - db:/var/lib/mysql
     networks:
       - minecraft
+    command: [
+      '--wait_timeout=28800',
+    ]
+
 volumes:
   paper:
   db:
