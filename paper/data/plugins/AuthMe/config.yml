@@ -309,7 +309,7 @@ settings:
     # {PLAYERNAME}: the player name (no colors)
     # {DISPLAYNAME}: the player display name (with colors)
     # {DISPLAYNAMENOCOLOR}: the player display name (without colors)
-    customJoinMessage: ''
+    customJoinMessage: '{DISPLAYNAME} giriş yaptı. merhaba {PLAYER}.'
     # Should we remove the leave messages of unlogged users?
     removeUnloggedLeaveMessage: false
     # Should we remove join messages altogether?
