@@ -6,9 +6,9 @@ GriefPrevention:
     world_the_end: -1
   Claims:
     Mode:
-      world_nether: Disabled
       world_the_end: Disabled
       world: Survival
+      world_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -36,7 +36,7 @@ GriefPrevention:
     InvestigationTool: STICK
     ModificationTool: GOLDEN_SHOVEL
     Expiration:
-      ChestClaimDays: 7
+      ChestClaimDays: 0
       UnusedClaimDays: 5
       AllClaims:
         DaysInactive: 60
