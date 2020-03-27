@@ -17,6 +17,10 @@ name = "default"
   value = true
 
 [[permissions]]
+  permission = "essentials.back"
+  value = true
+
+[[permissions]]
   permission = "essentials.back.ondeath"
   value = false
 
