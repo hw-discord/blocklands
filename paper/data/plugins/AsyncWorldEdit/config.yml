@@ -1,0 +1,375 @@
+awe:
+  #Do not change
+  version: 23
+  rendering:
+    #amount of time (in ticks) the server will place a chunk of blocks
+    interval: 1
+    #how often that a user will get an update on the current que (number of intervals)
+    talk-interval: 10
+    #number of seconds before repeating a message
+    talk-cooldown: 5
+    #maximum size of the blocks queue
+    queue-max-size-hard: 10000000
+    #maximum number of blocks on the global queue before unlocking it
+    queue-max-size-soft: 5000000
+    #how many datapoints should be included in the BPS calculation (default: 5)
+    bps-avg-data-points: 5
+  memory:
+    #minimum free memory (in kilobytes)
+    #When the server memory runs below this value all operations are going to cancel
+    #Use -1 for no limit
+    minimumHard: 400000
+    #the minimum free memory (In kilobytes) required to allow
+    #block queuing after the hard limit is reached (soft > hard)
+    minimumSoft: 600000
+    #Force GC to run each X milliseconds (-1 - disable) when memory is low
+    #Warning: if this is not handled correctly it can lead to TPS drop and timeouts!
+    gcTimeout: 10000
+  dispatcher:
+    #maximum number of jobs performed in one run
+    max-jobs: 2000
+    #maximum number of idle runs before disabling the dispatcher
+    max-idle-runs: 200
+    #maximum number of milliseconds the dispatcher can use
+    #This value should be lower than 50% of 1 tick (25ms)
+    max-time: 20
+  #Maximum number of blocks in que mode before AWE forces block placing.
+  #Use -1 to disable force flush.
+  forceFlushBlocks: 10000
+  #Check for updates
+  checkVersion: true  
+  physicsFreeze:
+    #Disable or enable blocks physics freeze when placing blocks  
+    enabled: true
+    #List of block for witch the physics freeze will be disabled
+    blackList:
+    - "minecraft:acacia_stairs"
+    - "minecraft:andesite_stairs"
+    - "minecraft:birch_stairs"
+    - "minecraft:brick_stairs"
+    - "minecraft:cobblestone_stairs"
+    - "minecraft:dark_oak_stairs"
+    - "minecraft:dark_prismarine_stairs"
+    - "minecraft:diorite_stairs"
+    - "minecraft:end_stone_brick_stairs"
+    - "minecraft:granite_stairs"
+    - "minecraft:jungle_stairs"
+    - "minecraft:mossy_stone_brick_stairs"
+    - "minecraft:nether_brick_stairs"
+    - "minecraft:oak_stairs"
+    - "minecraft:polished_andesite_stairs"
+    - "minecraft:polished_diorite_stairs"
+    - "minecraft:polished_granite_stairs"
+    - "minecraft:prismarine_brick_stairs"
+    - "minecraft:prismarine_stairs"
+    - "minecraft:purpur_stairs"
+    - "minecraft:quartz_stairs"
+    - "minecraft:red_nether_brick_stairs"
+    - "minecraft:red_sandstone_stairs"
+    - "minecraft:sandstone_stairs"
+    - "minecraft:smooth_quartz_stairs"
+    - "minecraft:smooth_red_sandstone_stairs"
+    - "minecraft:smooth_sandstone_stairs"
+    - "minecraft:spruce_stairs"
+    - "minecraft:stone_brick_stairs"
+    - "minecraft:stone_stairs"
+  # The class scanner configuration
+  classScanner:
+    # List of classes that should be skipped by the class scanner
+    # Each entry is a regexp and it represents a single class that should be ignored.
+    blackList:
+        # If the entry contains no items (empty list) the entire class will be ignored (all fields)
+        net\.minecraft\..*: {}
+        org\.bukkit\..*: {}
+        org\.spigotmc\..*: {}
+        io\.netty\..*: {}
+        com\.sk89q\.worldedit\.function\.mask\.BlockMask:
+            # The list of fields (regexp) that will be ignored by the class scanner
+            - "blocks"
+        com\.sk89q\.worldedit\.extent\.reorder\.ChunkBatchingExtent:
+            - "batches"
+  #File containing all the messages
+  strings: "english.yml"
+  messages:
+    #Show debug messages (valid options: https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/Level.html)
+    debugLevel: OFF
+    #Show undo cleanup messages
+    #Valid options: 
+    # * off - no message (only errors),
+    # * startup - show the message only on startup
+    # * [Default] on - show all undo cleanup messages
+    undoCleanup: on
+  #Disable async mode for
+  overrides:
+    #WorldEdit api calls
+    disableForWeApi: false
+    #for console player
+    disableForConsole: false
+    #for unknown player
+    disableForUnknown: false
+  #Blocks hub plugin options  
+  blocksHub:
+    log:
+        #Enable block change logging
+        isEnabled: true
+        #Enable block change logging for Direct Chunk API
+        isDcEnabled: false
+    #The block access control
+    access:
+        #Enable blocks access control
+        isEnabled: false
+        #Enable blocks access control for Direct Chunk API
+        isDcEnabled: false
+        #Allow NULL player to place blocks (used by some plugins)
+        allowNull: false
+        #Allow unknown player to place blocks
+        allowUnknown: true
+        #Allow console player to place blocks
+        allowConsole: true
+        #Allow offline player to place blocks
+        allowOffline: false
+  undo:
+    #What to do with the undo data when server is running low on memory and 
+    #the operation is running on the main thread
+    #Allowed values: 
+    # * off - memory is not checked while storing undo data (can lead to server crash)
+    # * drop - do not store the undo data
+    # * cancel - cancel current operation (throws max block changed)    
+    memoryLowMain: cancel
+    #What to do with the undo data when server is running low on memory and 
+    #the operation is not running on the main thread
+    #Allowed values: 
+    # * off - memory is not checked while storing undo data (can lead to server crash)
+    # * drop - do not store the undo data
+    # * cancel - cancel current operation (throws max block changed)    
+    # * wait - wait for GC to free up some memory
+    memoryLow: wait
+    #What to do with the undo data when server is running low on memory and 
+    #the operation is not running on the main thread
+    #Allowed values: 
+    # * off - memory is not checked while storing undo data (can lead to server crash)
+    # * drop - do not store the undo data
+    # * wait - wait for GC to free up some memory
+    memoryLowStorage: wait
+    #Store the undo data on disk (a bit slower but does not use so much RAM)
+    storeOnDisk: true
+    #How much time should the WorldEdit session be kept after player logged out
+    #Values: -1 Do not remove, 0 - immediately, X - Number of minutes
+    keepSessionOnLogoutFor: 0
+    #How long should the undo files be kept on the disk after the undo is no 
+    #logger used in WE.
+    #Values: -1 Do not delete, 0 - Delete immediately, X - Number of minutes to store 
+    #the file
+    keepUndoFileFor: 0
+    #The number of minutes between undo files cleanup
+    undoFileCleanupInterval: 30
+  #The direct chunk options
+  directChunk:
+    #Do auto relight after each edit    
+    autoRelight: true
+    #New chunk light level (0-15)
+    newSectionLightLevel: 0
+    #Placed block light level (0-15), -1 for auto
+    blockLightLevel: -1
+  #Permissions options
+  permissions:
+    #If you are OP you will have all AWE permissions
+    #Warning this causes the negative permissions to not work.
+    opHasAll: true
+    #Disable the global queue bypass, the player queue bypass works like before
+    #If you do not want to run out of memory you should not set
+    #the disableQueueBypass to false and opHasAll to true
+    disableQueueBypass: true
+  #Player permission groups.
+  #Permission node: AWE.Groups.<group name>  
+  permissionGroups:
+    #The group entry (at least one group is required!)
+    #If a player has multiple groups, the last one defined in the config
+    #is assigned. (Lower the group the lower the 'weight' if you can compare it to PEX)
+    default:
+      #Indicates that the group is called default.
+      #Only one group can be default, if multiple groups are set to default
+      #the first one is used as default. The default group is used for players
+      #that do not have any other permission groups assigned to them.
+      isDefault: true
+      #Maximum number of jobs a player can have. -1 = no job limit
+      maxJobs: 1
+      #Enable or disable auto job cancellation on player quit
+      cleanOnLogout: true
+      #Default AWE status for logging in players 
+      defaultMode: on
+      #Disable the WorldEdit undo
+      disableUndo: false
+      renderer:
+        #blocks to place (per-interval), this determines the max speed of block placing
+        #if you experience lag lower this and the next number (time), use -1 for no limit
+        blocks: 10000
+        #Maximum number of milliseconds spend on placing blocks, use -1 for no limit
+        time: 75
+      queue:
+        #maximum size of the player block queue
+        limit-hard: 500000
+        #number of blocks on the player queue when to stop placing blocks
+        limit-soft: 250000
+      messages:
+        #Whether or not to show progress using BarAPI
+        progress-bar: true
+        #minimum number of blocks to display the progress bar
+        progress-bar-min: 100
+        #Whether or not to show progress using the chat messages
+        progress-chat: true
+        #is async world edit talkative 
+        talkative: true
+      #The WorldEdit config override
+      worldedit:
+        #Maximum number of undoos
+        historySize: 15
+        #Maximum number of changed blocks
+        maxBlockChanged: -1
+        #List of disallowed block ID
+        disallowed-blocks:
+        - "minecraft:oak_sapling"
+        - "minecraft:jungle_sapling"
+        - "minecraft:dark_oak_sapling:"
+        - "minecraft:spruce_sapling"
+        - "minecraft:birch_sapling"
+        - "minecraft:acacia_sapling"
+        - "minecraft:black_bed"
+        - "minecraft:blue_bed"
+        - "minecraft:brown_bed"
+        - "minecraft:cyan_bed"
+        - "minecraft:gray_bed"
+        - "minecraft:green_bed"
+        - "minecraft:light_blue_bed"
+        - "minecraft:light_gray_bed"
+        - "minecraft:lime_bed"
+        - "minecraft:magenta_bed"
+        - "minecraft:orange_bed"
+        - "minecraft:pink_bed"
+        - "minecraft:purple_bed"
+        - "minecraft:red_bed"
+        - "minecraft:white_bed"
+        - "minecraft:yellow_bed"
+        - "minecraft:powered_rail"
+        - "minecraft:detector_rail"
+        - "minecraft:grass"
+        - "minecraft:dead_bush"
+        - "minecraft:moving_piston"
+        - "minecraft:piston_head"
+        - "minecraft:sunflower"
+        - "minecraft:rose_bush"
+        - "minecraft:dandelion"
+        - "minecraft:poppy"
+        - "minecraft:brown_mushroom"
+        - "minecraft:red_mushroom"
+        - "minecraft:tnt"
+        - "minecraft:torch"
+        - "minecraft:fire"
+        - "minecraft:redstone_wire"
+        - "minecraft:wheat"
+        - "minecraft:potatoes"
+        - "minecraft:carrots"
+        - "minecraft:melon_stem"
+        - "minecraft:pumpkin_stem"
+        - "minecraft:beetroots"
+        - "minecraft:rail"
+        - "minecraft:lever"
+        - "minecraft:redstone_torch"
+        - "minecraft:redstone_wall_torch"
+        - "minecraft:repeater"
+        - "minecraft:comparator"
+        - "minecraft:stone_button"
+        - "minecraft:birch_button"
+        - "minecraft:acacia_button"
+        - "minecraft:dark_oak_button"
+        - "minecraft:jungle_button"
+        - "minecraft:oak_button"
+        - "minecraft:spruce_button"
+        - "minecraft:cactus"
+        - "minecraft:sugar_cane"
+        - "minecraft:bedrock"
+        #The disallowed black list handling
+        disallowedBlocksUsage:
+          #Use black list in patterns
+          patterns: true
+          #Block set (every block set operation)
+          blockSet: false
+    #Example of additional vip group:
+    #vip:
+    #  #you can remove this, the isDefault is by default set to false
+    #  isDefault: false 
+    #  maxJobs: -1
+    #    cleanOnLogout: false
+    #  #You can omit entries with that are same value as in the default group
+    #  #defaultMode: on
+    #  #Disable the WorldEdit undo
+    #  disableUndo: true
+    #  renderer:
+    #    blocks: 20000
+    #    time: -1
+  #List of WorldEdit operations that AWE won't run in async mode
+  disabledOperations: {}
+  #  - undo
+  #  - redo
+  #  - fillXZ
+  #  - fillXY
+  #  - fillZY
+  #  - fill3d
+  #  - removeAbove
+  #  - removeBelow
+  #  - removeNear
+  #  - setBlocks
+  #  - replaceBlocks
+  #  - makeCuboidFaces
+  #  - makeCuboidWalls
+  #  - overlayCuboidBlocks
+  #  - naturalizeCuboidBlocks
+  #  - stackCuboidRegion
+  #  - moveCuboidRegion
+  #  - drainArea
+  #  - fixLiquid
+  #  - makeCylinder
+  #  - makeSphere
+  #  - makePyramid
+  #  - thaw
+  #  - simulateSnow
+  #  - green
+  #  - makePumpkinPatches
+  #  - makeForest
+  #  - makeShape
+  #  - deformRegion
+  #  - hollowOutRegion
+  #  - paste
+  #  - copy
+  #  - cut
+  #  - regenerate
+  #  - center
+  #  - drawLine
+  #  - drawSpline
+  #  - makeBiomeShape
+  #  - forest
+  #  - flora
+  #  - setBiome
+  #  - loadSchematic
+  #  - saveSchematic
+  #  - craftScript
+  #  - makeFaces
+  #  - makeWalls
+  #  - overlayBlocks
+  #  - naturalizeBlocks
+  #  - stackRegion
+  #  - moveRegion
+  #  - schematicInfo
+  #  - placeSchematic
+  #  - chunkSet
+  #  - chunkClear
+  #  - chunkFill
+  #  - chunkClone
+  #  - chunkPaste
+  #  - chunkCopy
+  #  - chunkRelight
+  #  - brush
+  #  - smooth
+  #  - tool
+  #  - tree
+  #  - pickaxe
