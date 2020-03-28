@@ -658,7 +658,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: "blocklands'e hoş geldin {DISPLAYNAME}."
+  announce-format: "{DISPLAYNAME} blocklands'e ilk kez giriş yapıyor. umarım şifresini değiştirmeyi unutmaz."
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
