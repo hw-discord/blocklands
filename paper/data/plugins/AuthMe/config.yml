@@ -123,7 +123,7 @@ settings:
         # Can not authenticated players chat?
         # Keep in mind that this feature also blocks all commands not
         # listed in the list below.
-        allowChat: false
+        allowChat: true
         # Hide the chat log from players who are not authenticated?
         hideChat: false
         # Allowed commands for unauthenticated players
@@ -176,7 +176,7 @@ settings:
         # Ban unknown IPs trying to log in with a restricted username?
         banUnsafedIP: false
         # Should unregistered players be kicked immediately?
-        kickNonRegistered: true
+        kickNonRegistered: false
         # Should players be kicked on wrong password?
         kickOnWrongPassword: true
         # Should not logged in players be teleported to the spawn?
@@ -184,15 +184,15 @@ settings:
         # their normal position.
         teleportUnAuthedToSpawn: false
         # Can unregistered players walk around?
-        allowMovement: false
+        allowMovement: true
         # After how many seconds should players who fail to login or register
         # be kicked? Set to 0 to disable.
-        timeout: 30
+        timeout: 240
         # Regex pattern of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk?
         # Set to 0 for unlimited radius
-        allowedMovementRadius: 100
+        allowedMovementRadius: 10
         # Should we protect the player inventory before logging in? Requires ProtocolLib.
         ProtectInventoryBeforeLogIn: true
         # Should we deny the tabcomplete feature before logging in? Requires ProtocolLib.
@@ -324,7 +324,7 @@ settings:
 GroupOptions:
     # Enables switching a player to defined permission groups before they log in.
     # See below for a detailed explanation.
-    enablePermissionCheck: false
+    enablePermissionCheck: true
     # This is a very important option: if a registered player joins the server
     # AuthMe will switch him to unLoggedInGroup. This should prevent all major exploits.
     # You can set up your permission plugin with this special group to have no permissions,
@@ -338,7 +338,7 @@ GroupOptions:
     registeredPlayerGroup: ''
     # Similar to above, unregistered players can be set to the following
     # permissions group
-    unregisteredPlayerGroup: ''
+    unregisteredPlayerGroup: 'guest'
 Email:
     # Email SMTP server host
     mailSMTP: smtp.gmail.com

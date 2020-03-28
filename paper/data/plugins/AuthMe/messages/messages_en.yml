@@ -5,7 +5,7 @@
 
 # Registration
 registration:
-  register_request: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
+  register_request: 'hello_world discord sunucusuna girerek kayıt olmalısın: https://discord.gg/NAM8mFZ'
   command_usage: '&cUsage: /register <password> <ConfirmPassword>'
   reg_only: 'hello_world discord sunucusuna girerek kayıt olmalısın: https://discord.gg/NAM8mFZ'
   kicked_admin_registered: 'An admin just registered you; please log in again.'
