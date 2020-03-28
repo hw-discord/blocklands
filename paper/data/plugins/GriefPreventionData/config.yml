@@ -48,7 +48,7 @@ GriefPrevention:
     MaximumNumberOfClaimsPerPlayer: 0
     CreationRequiresWorldGuardBuildPermission: true
     VillagerTradingRequiresPermission: true
-    CommandsRequiringAccessTrust: /sethome
+    CommandsRequiringAccessTrust: /sethome;/esethome;/createhome;/ecreatehome
     DeliverManuals: false
     ManualDeliveryDelaySeconds: 30
     RavagersBreakBlocks: false
