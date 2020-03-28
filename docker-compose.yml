@@ -12,6 +12,7 @@ services:
       - ./paper/data:/opt/data
     ports:
       - 25565:25565
+      - 25575:25575
     networks:
       - minecraft
   db:
