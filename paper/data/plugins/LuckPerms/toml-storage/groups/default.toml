@@ -153,6 +153,10 @@ name = "default"
   value = true
 
 [[permissions]]
+  permission = "essentials.pweather"
+  value = true
+
+[[permissions]]
   permission = "essentials.realname"
   value = true
 
