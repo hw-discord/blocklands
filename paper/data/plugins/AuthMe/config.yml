@@ -335,7 +335,7 @@ GroupOptions:
     # Please note that the group name is case-sensitive, so 'admin' is different from 'Admin'
     # Otherwise your group will be wiped and the player will join in the default group []!
     # Example: registeredPlayerGroup: 'NotLogged'
-    registeredPlayerGroup: ''
+    registeredPlayerGroup: 'guest'
     # Similar to above, unregistered players can be set to the following
     # permissions group
     unregisteredPlayerGroup: 'guest'
