@@ -10,7 +10,7 @@ registration:
   reg_only: 'hello_world discord sunucusuna girerek kayıt olmalısın: https://discord.gg/NAM8mFZ'
   kicked_admin_registered: 'kayıt işlemin gerçekleşti. discord üzerinden verilen şifren ile giriş yap ve şifreni değiştirmeyi unutma'
   success: '&2Successfully registered!'
-  disabled: '&cIn-game registration is disabled!'
+  disabled: 'hello_world discord sunucusuna girerek kayıt olmalısın: https://discord.gg/NAM8mFZ'
   name_taken: '&cYou already have registered this username!'
 
 # Password errors on registration
@@ -24,7 +24,7 @@ password:
 # Login
 login:
   command_usage: '&cUsage: /login <password>'
-  wrong_password: '&cWrong password!'
+  wrong_password: 'hatalı şifre!'
   success: '&2Successful login!'
   login_request: '&cPlease, login with the command: /login <password>'
   timeout_error: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
@@ -32,15 +32,15 @@ login:
 # Errors
 error:
   unregistered_user: '&cThis user isn''t registered!'
-  denied_command: '&cIn order to use this command you must be authenticated!'
+  denied_command: 'öncelikle giriş yapmalısın.'
   denied_chat: '&cIn order to chat you must be authenticated!'
-  not_logged_in: '&cYou''re not logged in!'
+  not_logged_in: 'öncelikle giriş yapmalısın.'
   tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
   max_registration: '&cYou have exceeded the maximum number of registrations (%reg_count/%max_acc %reg_names) for your connection!'
-  no_permission: '&4You don''t have the permission to perform this action!'
+  no_permission: 'bunu yapmana izin veremem kb.'
   unexpected_error: '&4An unexpected error occurred, please contact an administrator!'
   kick_for_vip: '&3A VIP player has joined the server when it was full!'
-  logged_in: '&cYou''re already logged in!'
+  logged_in: 'zaten giriş yapmışsın kardeşim.'
   kick_unresolved_hostname: '&cAn error occurred: unresolved player hostname!'
 
 # AntiBot
@@ -65,8 +65,8 @@ misc:
 
 # Session messages
 session:
-  invalid_session: '&cYour IP has been changed and your session data has expired!'
-  valid_session: '&2Logged-in due to Session Reconnection.'
+  invalid_session: 'IP adresin değiştiği için tekrar giriş yapman gerekiyor.'
+  valid_session: 'girişini otomatik olarak yaptım. teşekküre gerek yok.'
 
 # Error messages when joining
 on_join_validation:
