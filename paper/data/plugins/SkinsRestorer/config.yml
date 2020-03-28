@@ -40,11 +40,14 @@ PerSkinPermissions: false
 # Enable or disable default skins
 # If there is more than one, the plugin will choose a random one.
 DefaultSkins:
-  Enabled: false
+  Enabled: true
   ApplyForPremium: false
   Names:
-    - xknat
-    - McLive
+    - Notch
+    - jeb_
+    - 4CORONAVIRUS
+    - 2807
+    - Bilo_sagdiyev
 
 # Skins in this list will be disabled, so users can't set it.
 # Can by bypassed with 'skinsrestorer.bypassdisabled'
