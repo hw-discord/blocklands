@@ -182,7 +182,7 @@ settings:
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
-        teleportUnAuthedToSpawn: false
+        teleportUnAuthedToSpawn: true
         # Can unregistered players walk around?
         allowMovement: true
         # After how many seconds should players who fail to login or register
@@ -207,7 +207,7 @@ settings:
         # Maximum Join authorized by IP
         maxJoinPerIp: 0
         # AuthMe will NEVER teleport players if set to true!
-        noTeleport: true
+        noTeleport: false
         # Regex syntax for allowed chars in passwords. The default [!-~] allows all visible ASCII
         # characters, which is what we recommend. See also http://asciitable.com
         # You can test your regex with https://regex101.com
