@@ -161,7 +161,7 @@ settings:
             - world_nether
             - world_the_end
         # This option will save the quit location of the players.
-        SaveQuitLocation: false
+        SaveQuitLocation: true
         # To activate the restricted user feature you need
         # to enable this option and configure the AllowedRestrictedUser field.
         AllowRestrictedUser: false
@@ -182,7 +182,7 @@ settings:
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
-        teleportUnAuthedToSpawn: false
+        teleportUnAuthedToSpawn: true
         # Can unregistered players walk around?
         allowMovement: true
         # After how many seconds should players who fail to login or register
