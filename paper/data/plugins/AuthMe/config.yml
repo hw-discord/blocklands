@@ -182,7 +182,7 @@ settings:
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
-        teleportUnAuthedToSpawn: true
+        teleportUnAuthedToSpawn: false
         # Can unregistered players walk around?
         allowMovement: true
         # After how many seconds should players who fail to login or register
