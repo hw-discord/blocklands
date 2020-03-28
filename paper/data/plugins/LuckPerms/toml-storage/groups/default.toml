@@ -169,6 +169,10 @@ name = "default"
   value = true
 
 [[permissions]]
+  permission = "essentials.sethome.multiple"
+  value = true
+
+[[permissions]]
   permission = "essentials.sethome.bed"
   value = true
 
