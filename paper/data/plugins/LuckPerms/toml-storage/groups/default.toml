@@ -22,7 +22,7 @@ name = "default"
 
 [[permissions]]
   permission = "essentials.back.ondeath"
-  value = false
+  value = true
 
 [[permissions]]
   permission = "essentials.backup"
