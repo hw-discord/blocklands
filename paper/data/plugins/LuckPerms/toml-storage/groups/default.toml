@@ -173,11 +173,11 @@ name = "default"
   value = true
 
 [[permissions]]
-  permission = "essentials.sethome.multiple"
+  permission = "essentials.sethome.bed"
   value = true
 
 [[permissions]]
-  permission = "essentials.sethome.bed"
+  permission = "essentials.sethome.multiple"
   value = true
 
 [[permissions]]
