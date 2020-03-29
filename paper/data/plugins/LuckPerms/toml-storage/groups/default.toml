@@ -251,3 +251,11 @@ name = "default"
 [[permissions]]
   permission = "griefprevention.visualizenearbyclaims"
   value = true
+
+[[permissions]]
+  permission = "tradesystem.toggle_trades_command"
+  value = true
+
+[[permissions]]
+  permission = "tradesystem.trade"
+  value = true
