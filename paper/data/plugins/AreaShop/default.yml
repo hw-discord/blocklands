@@ -237,13 +237,13 @@ rent:
 # └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 buy:
   # The default price of a buy region (variables, mathematical expressions and JavaScript can be used).
-  price: 1000
+  price: 999999999
   # The percentage of the price you get back if you sell the region (variables, mathematical expressions and JavaScript can be used)
-  moneyBack: 100
+  moneyBack: 0
   # Automatically sell the region after the specified number of minutes between the last login time of the buyer and the current time
   # Use times like '1 day' etc, or 'disabled' for never.
   inactiveTimeUntilSell: 'disabled'
   # Selling is disabled for the region owner (players with areashop.sellown without areashop.sell)
-  sellDisabled: false
+  sellDisabled: true
   # Reselling is disabled for the region owner (players with areashop.resell without areashop.resellall)
-  resellDisabled: false
+  resellDisabled: true
