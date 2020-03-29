@@ -205,7 +205,7 @@ rent:
   autoExtend: false
   # The percentage of the rent price you get back if you unrent the region (only the time that is unused is given back).
   # (variables, mathematical expressions and JavaScript can be used)
-  moneyBack: 100
+  moneyBack: 95
   # Maximum number of extends a player can do (-1 for infinite, 0 for no extending), if they are at this number then
   # they are force to let their rent run out (and can rent it again at that point).
   maxExtends: -1
