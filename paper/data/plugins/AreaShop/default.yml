@@ -25,9 +25,9 @@ general:
   # false to teleport to the location set by '/as settp' or the default location (if not set).
   findTeleportToSign: true
   # Restricts buying and renting of regions to the world of the region.
-  restrictedToWorld: false
+  restrictedToWorld: true
   # Restricts buying and renting of regions to the region itself (player needs to be inside the region).
-  restrictedToRegion: false
+  restrictedToRegion: true
   # The UUID of the landlord, this player will receive all money from rents/buys (but not reselling with '/as resell').
   landlord: ''
   # Name of the landlord, if the landlord UUID setting is not provided then the name will be used instead.
