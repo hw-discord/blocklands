@@ -54,7 +54,7 @@ Settings:
  #         Max trade distance          #
  # If you want to disable this feature #
  #           set it to -1              #
- max_trade_distance: -1
+ max_trade_distance: 5
 
  #          Command used to pay money               #
  #   Need an external plugin which provide economy  #
