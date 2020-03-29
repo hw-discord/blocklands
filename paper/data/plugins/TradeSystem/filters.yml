@@ -1,0 +1,7 @@
+do:not:touch:this: default
+lore_filter:
+- Non-tradeable
+name_filter:
+- Too overpowered item
+type_filter:
+- AIR
