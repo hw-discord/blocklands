@@ -10,7 +10,7 @@ Settings:
  debug: false
 
  # Use prefix (change it in the languages file) #
- prefix: true
+ prefix: false
 
  #               Intensity of sounds                       #
  #    Default sounds are based on 1.15.2 sounds        #
