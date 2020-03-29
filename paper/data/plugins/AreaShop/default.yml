@@ -42,7 +42,7 @@ general:
   # Sections with 'Player' at the end will be run by the player that clicks the sign and 'Console' ones from the console.
   signProfile:
     forrent:
-      line1: '&2&l[For Rent]'
+      line1: '&2&l[Kiralık]'
       line2: '%region%'
       line3: '%duration%'
       line4: '%price%'
@@ -53,7 +53,7 @@ general:
       leftClickPlayer:
         - 'areashop info region %region%'
     rented:
-      line1: '&4&l[Rented]'
+      line1: '&4&l[Kiralandı]'
       line2: '%region%'
       line3: '%player%'
       line4: '%untilshort%'
