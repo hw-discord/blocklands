@@ -302,7 +302,7 @@ settings:
     # set true for server or false for player
     broadcastWelcomeMessage: false
     # Should we delay the join message and display it once the player has logged in?
-    delayJoinMessage: true
+    delayJoinMessage: false
     # The custom join message that will be sent after a successful login,
     # keep empty to use the original one.
     # Available variables:
