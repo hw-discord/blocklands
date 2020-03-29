@@ -198,7 +198,7 @@ general:
 # └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 rent:
   # The default price of a rental region (variables, mathematical expressions and JavaScript can be used).
-  price: 1000
+  price: 10000
   # The default duration of a rental region, you can find all time indicators in config.yml below the RENTING header.
   duration: '1 day'
   # Automatically extend the rental when it is running out (if the player meets the criteria)
