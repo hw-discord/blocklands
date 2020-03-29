@@ -1,6 +1,6 @@
 #   Trade System Configuration file  #
 #        Version B5-S-2 - SoulsCode      #
-     
+
 Settings:
 
  #  See some debug messages in the console     #
@@ -11,32 +11,32 @@ Settings:
 
  # Use prefix (change it in the languages file) #
  prefix: true
- 
+
  #               Intensity of sounds                       #
  #    Default sounds are based on 1.15.2 sounds        #
  # be sure to use the right sounds for your server version #
  #    You can change them in sounds.yml   0 = sounds off   #
  sounds_intensity: 10
- 
+
  # Allow players to trade money #
  money_trade: true
- 
+
  #   Add Vault soft dependency for money trades  #
  #     Must have Vault in your plugins folder    #
  #       Add a check for players money           #
  #              RECOMMENDED                      #
  use_vault: false
- 
+
  # Time for the request to expire #
  expire_time: 60 # Seconds
 
  # Allow players to trade while in creative gamemode #
- creative_request: false 
+ creative_request: false
 
  # Allow players to trade between worlds #
  worlds_trades: false
 
- # Set a delay to unlock items while trading # 
+ # Set a delay to unlock items while trading #
  unlock_wait:
   enabled: true
   time: 3 # Seconds
@@ -44,23 +44,23 @@ Settings:
  # Allow players to send and accept trade requests #
  #       right-clicking on other players           #
  right_click_request: true
- 
+
  # Cooldown a player from sending another #
- #     request to the same player         #               
+ #     request to the same player         #
  cooldown_player:
   enabled: true
   time: 60 # Seconds
-  
+
  #         Max trade distance          #
  # If you want to disable this feature #
  #           set it to -1              #
  max_trade_distance: -1
- 
+
  #          Command used to pay money               #
  #   Need an external plugin which provide economy  #
  pay_command: 'pay %name% %money%'
-  
+
  # Disable trades in some worlds #
- blacklisted_worlds: 
+ blacklisted_worlds:
   - 'world_nether'
- 
+
