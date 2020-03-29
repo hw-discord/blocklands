@@ -49,7 +49,7 @@ killaura:
       # How much VL should the player get after being flagged by this module?
       vl_weights:
         cps: 5
-        delay: 5 # This module might cause some false flags when player jitter clicking, disable it if you want (-1)
+        delay: -1 # This module might cause some false flags when player jitter clicking, disable it if you want (-1)
         cps_long: 5
         v19plus: 5
 
@@ -190,9 +190,9 @@ killaura:
   # number_of_violations: '<command>'
   commands:
     5: 'matrix npc %player% 100'
-    20: 'matrix notify %player% might be using combat hacks (KillAura)'
-    35: 'matrix notify %player% is using combat hacks (KillAura) #2'
-    45: 'matrix kick %player% KillAura'
+    20: 'helpop %player% might be using combat hacks (KillAura)'
+    35: 'helpop %player% is using combat hacks (KillAura) #2'
+    45: 'helpop %player% KillAura garanti'
 
 ## HitBox
 # Description: This check prevents players from using HitBox, Angle, Reach hacks.
@@ -227,9 +227,9 @@ hitbox:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% tried to reach entity outside max reach distance (HitBox)'
-    15: 'matrix notify %player% tried to reach entity outside max reach distance (HitBox) #2'
-    24: 'matrix kick %player% Reach/HitBox Hacks'
+    10: 'helpop %player% tried to reach entity outside max reach distance (HitBox)'
+    15: 'helpop %player% tried to reach entity outside max reach distance (HitBox) #2'
+    24: 'helpop %player% Reach/HitBox Hacks garanti'
 
 ## Movement Speed Check
 # This checks how fast a player moves, and prevents the player from moving too fast.
@@ -265,9 +265,9 @@ speed:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    55: 'matrix notify %player% tried to move faster than usual (Speed) #1'
-    90: 'matrix notify %player% tried to move faster than usual (Speed) #2'
-    220: 'matrix kick %player% Speed Hacks'
+    55: 'helpop %player% tried to move faster than usual (Speed) #1'
+    90: 'helpop %player% tried to move faster than usual (Speed) #2'
+    220: 'helpop %player% Speed Hacks garanti'
 
 ## Fly
 # Prevents the player from using both vanilla and non-vanilla fly hacks.
@@ -308,9 +308,9 @@ fly:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    50: 'matrix notify %player% tried to fly (Fly) #1'
-    100: 'matrix notify %player% tried to fly (Fly) #2'
-    180: 'matrix kick %player% Fly Related Hacks'
+    50: 'helpop %player% tried to fly (Fly) #1'
+    100: 'helpop %player% tried to fly (Fly) #2'
+    180: 'helpop %player% Fly Related Hacks garanti'
 
 
 ## BadPackets
@@ -340,9 +340,9 @@ badpackets:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    100: 'matrix notify %player% is sending unusual packets to server (BadPackets) #1'
-    150: 'matrix notify %player% is sending unusual packets to server (BadPackets) #2'
-    240: 'matrix kick %player% Sending Unusual Packets'
+    100: 'helpop %player% is sending unusual packets to server (BadPackets) #1'
+    150: 'helpop %player% is sending unusual packets to server (BadPackets) #2'
+    240: 'helpop %player% Sending Unusual Packets garanti'
 
 ## FastUse
 # Check prevents player from eating or using an item too quickly.
@@ -359,8 +359,8 @@ fastuse:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    5: 'matrix notify %player% tried to use an item faster than usual (FastUse)'
-    12: 'matrix kick %player% FastUse Hacks'
+    5: 'helpop %player% tried to use an item faster than usual (FastUse)'
+    12: 'helpop %player% FastUse Hacks garanti'
 
 ## FastBow
 # Check prevents player from shooting a bow too quickly.
@@ -377,8 +377,8 @@ fastbow:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    5: 'matrix notify %player% is trying to shoot a bow too quickly (FastBow)'
-    15: 'matrix kick %player% FastBow Hacks'
+    5: 'helpop %player% is trying to shoot a bow too quickly (FastBow)'
+    15: 'helpop %player% FastBow Hacks garanti'
 
 ## FastHeal
 # Check prevents player from regaining health too quickly.
@@ -392,8 +392,8 @@ fastheal:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% tried to regain health too quickly (FastHeal)'
-    20: 'matrix kick %player% FastHeal Hacks'
+    10: 'helpop %player% tried to regain health too quickly (FastHeal)'
+    20: 'helpop %player% FastHeal Hacks garanti'
 
 ## Block
 # Check prevents the player from breaking, placing block quickly
@@ -428,8 +428,8 @@ block:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% tried to place/break a block too quickly (FastPlace/FastBreak)'
-    20: 'matrix kick %player% FastPlace/FastBreak Hacks'
+    10: 'helpop %player% tried to place/break a block too quickly (FastPlace/FastBreak)'
+    20: 'helpop %player% FastPlace/FastBreak Hacks garanti'
 
 ## Scaffold check
 # Check prevents player bridging blocks or towering up faster than normal speed
@@ -460,9 +460,9 @@ scaffold:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    7: 'matrix notify %player% tried to bridge blocks quickly (Scaffold)'
-    15: 'matrix notify %player% tried to bridge blocks quickly (Scaffold) #2'
-    24: 'matrix kick %player% Scaffold/Tower'
+    7: 'helpop %player% tried to bridge blocks quickly (Scaffold)'
+    15: 'helpop %player% tried to bridge blocks quickly (Scaffold) #2'
+    24: 'helpop %player% Scaffold/Tower garanti'
 
 ## Jesus
 # Check prevents the player from moving too too quickly in liquids, or walking on liquid.
@@ -476,8 +476,8 @@ jesus:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    15: 'matrix notify %player% tried to move illegally in liquid (Jesus)'
-    25: 'matrix kick %player% Jesus/WaterSpeed/WaterFly Hacks'
+    15: 'helpop %player% tried to move illegally in liquid (Jesus)'
+    25: 'helpop %player% Jesus/WaterSpeed/WaterFly Hacks garanti'
 
 ## Inventory
 # Check prevents the player from using illegal inventory modifications such as Steal.
@@ -509,8 +509,8 @@ inventory:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% moved items in inventory too quickly (ChestSteal)'
-    20: 'matrix kick %player% ChestSteal/Inventory Hacks'
+    10: 'helpop %player% moved items in inventory too quickly (ChestSteal)'
+    20: 'helpop %player% ChestSteal/Inventory Hacks garanti'
 
 ## Velocity
 # Check prevents the player from using any type of anti-knockback hacks.
@@ -542,15 +542,15 @@ velocity:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% tried to ignore server velocity (Velocity)'
-    15: 'matrix notify %player% tried to ignore server velocity (Velocity) #2'
-    20: 'matrix kick %player% Velocity/Anti-Knockback'
+    10: 'helpop %player% tried to ignore server velocity (Velocity)'
+    15: 'helpop %player% tried to ignore server velocity (Velocity) #2'
+    20: 'helpop %player% Velocity/Anti-Knockback garanti'
 
 ## Spam
 # Check prevents a player from spamming messages in the servers chat.
 chat:
   # Enable this check?
-  enable: true
+  enable: false
 
   # Minimum amount of time between messages (Seconds)
   min_time: 3
@@ -588,8 +588,8 @@ interact:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% tried to illegally interact with Entity/Block (Interact)'
-    15: 'matrix kick %player% Illegally Interacting with Block/Entity'
+    10: 'helpop %player% tried to illegally interact with Entity/Block (Interact)'
+    15: 'helpop %player% Illegally Interacting with Block/Entity garanti'
 
 ## AutoFish
 # Check prevents the player from using an Auto-Fishing mod or hack.
@@ -603,8 +603,8 @@ autofish:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    6: 'matrix notify %player% is using auto fish (AutoFish)'
-    10: 'matrix kick %player% No Auto Fishing!'
+    6: 'helpop %player% is using auto fish (AutoFish)'
+    10: 'helpop %player% No Auto Fishing! garanti'
 
 ## Phase
 # Check prevents the player people glitching through blocks.
@@ -622,8 +622,8 @@ phase:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    7: 'matrix notify %player% is phase into block (Phase)'
-    13: 'matrix notify %player% is phase into block (Phase) #2'
+    7: 'helpop %player% is phase into block (Phase)'
+    13: 'helpop %player% is phase into block (Phase) #2'
 
 ## AutoBot
 # Check prevents player use some Bot mods like Baritone
@@ -660,9 +660,9 @@ elytra:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    10: 'matrix notify %player% suspected using elytra flight (Elytra)'
-    20: 'matrix notify %player% suspected using elytra flight (Elytra) #2'
-    40: 'matrix kick %player% Elytra Flight'
+    10: 'helpop %player% suspected using elytra flight (Elytra)'
+    20: 'helpop %player% suspected using elytra flight (Elytra) #2'
+    40: 'helpop %player% Elytra Flight garanti'
 
 ## Vehicle
 # Checks prevents player using VehicleFlight, VehicleSpeed, EntitySpeed..
@@ -698,6 +698,6 @@ vehicle:
   # Violation Thresholds
   # number_of_violations: '<command>'
   commands:
-    5: 'matrix notify %player% suspected using vehicle cheat (Vehicle)'
-    10: 'matrix notify %player% suspected using vehicle cheat (Vehicle) #2'
-    17: 'matrix kick %player% Suspicious vehicle movement'
+    5: 'helpop %player% suspected using vehicle cheat (Vehicle)'
+    10: 'helpop %player% suspected using vehicle cheat (Vehicle) #2'
+    17: 'helpop %player% Suspicious vehicle movement garanti'

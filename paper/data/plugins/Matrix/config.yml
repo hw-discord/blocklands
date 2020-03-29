@@ -47,7 +47,7 @@ kick_strike_lightning: true
 # Ghost Mode
 # If you enable Ghost Mode, Matrix will Not setback player or cancel illegal actions.
 # I don't recommend turning this feature on, which can lead to bypasses, such as teleport
-ghost_mode: false
+ghost_mode: true
 
 # Premium User
 # This is an authentication system that provides better service to paying users.
