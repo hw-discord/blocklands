@@ -208,7 +208,7 @@ rent:
   moneyBack: 95
   # Maximum number of extends a player can do (-1 for infinite, 0 for no extending), if they are at this number then
   # they are force to let their rent run out (and can rent it again at that point).
-  maxExtends: -1
+  maxExtends: 0
   # The Maximum time they can have the region rented in advance (use times like '1 day' etc, or 'unlimited' for no limit).
   # This can prevent players from renting their region for a year, and to ensure they periodically have to extend their rent.
   maxRentTime: '7 day'
