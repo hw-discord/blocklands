@@ -89,7 +89,7 @@ world-settings:
     grass-spread-tick-rate: 4
     bed-search-radius: 1
     use-faster-eigencraft-redstone: true
-    fix-zero-tick-instant-grow-farms: true
+    fix-zero-tick-instant-grow-farms: false
     allow-non-player-entities-on-scoreboards: false
     portal-search-radius: 128
     portal-create-radius: 16
