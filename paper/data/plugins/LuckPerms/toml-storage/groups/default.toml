@@ -1,6 +1,22 @@
 name = "default"
 
 [[permissions]]
+  permission = "areashop.buy"
+  value = false
+
+[[permissions]]
+  permission = "areashop.sellown"
+  value = false
+
+[[permissions]]
+  permission = "areashop.setteleport"
+  value = false
+
+[[permissions]]
+  permission = "areashop.teleport"
+  value = false
+
+[[permissions]]
   permission = "authme.player.*"
   value = true
 
