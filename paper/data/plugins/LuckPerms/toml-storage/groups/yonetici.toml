@@ -88,5 +88,5 @@ name = "yonetici"
   group = "default"
 
 [[prefixes]]
-  prefix = "&cGM&r"
+  prefix = "&2"
   priority = 1
