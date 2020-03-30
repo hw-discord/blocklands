@@ -17,6 +17,30 @@ name = "default"
   value = false
 
 [[permissions]]
+  permission = "areashop.teleportall"
+  value = false
+
+[[permissions]]
+  permission = "areashop.teleportavailable"
+  value = false
+
+[[permissions]]
+  permission = "areashop.teleportavailablesign"
+  value = false
+
+[[permissions]]
+  permission = "areashop.teleportfriend"
+  value = false
+
+[[permissions]]
+  permission = "areashop.teleportfriendsign"
+  value = false
+
+[[permissions]]
+  permission = "areashop.teleportsign"
+  value = false
+
+[[permissions]]
   permission = "authme.player.*"
   value = true
 
