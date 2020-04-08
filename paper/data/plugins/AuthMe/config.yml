@@ -311,7 +311,7 @@ settings:
     # {DISPLAYNAMENOCOLOR}: the player display name (without colors)
     customJoinMessage: ''
     # Should we remove the leave messages of unlogged users?
-    removeUnloggedLeaveMessage: false
+    removeUnloggedLeaveMessage: true
     # Should we remove join messages altogether?
     removeJoinMessage: false
     # Should we remove leave messages altogether?
