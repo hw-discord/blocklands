@@ -5,6 +5,10 @@ name = "yonetici"
   value = true
 
 [[permissions]]
+  permission = "mv.bypass.gamemode.*"
+  value = true
+
+[[permissions]]
   permission = "displayname.yönetici"
   value = true
 
