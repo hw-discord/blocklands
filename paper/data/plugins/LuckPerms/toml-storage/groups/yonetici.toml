@@ -65,6 +65,14 @@ name = "yonetici"
   value = true
 
 [[permissions]]
+  permission = "essentials.silentjoin"
+  value = true
+
+[[permissions]]
+  permission = "essentials.silentquit"
+  value = true
+
+[[permissions]]
   permission = "essentials.sleepingignored"
   value = true
 
