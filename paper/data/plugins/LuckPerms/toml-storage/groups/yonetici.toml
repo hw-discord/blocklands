@@ -1,6 +1,10 @@
 name = "yonetici"
 
 [[permissions]]
+  permission = "matrix.*"
+  value = true
+
+[[permissions]]
   permission = "displayname.yönetici"
   value = true
 
