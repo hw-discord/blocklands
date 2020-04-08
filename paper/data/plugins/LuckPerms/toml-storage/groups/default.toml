@@ -1,6 +1,10 @@
 name = "default"
 
 [[permissions]]
+  permission = "authme.player.*"
+  value = true
+
+[[permissions]]
   permission = "areashop.buy"
   value = false
 
@@ -39,10 +43,6 @@ name = "default"
 [[permissions]]
   permission = "areashop.teleportsign"
   value = false
-
-[[permissions]]
-  permission = "authme.player.*"
-  value = true
 
 [[permissions]]
   permission = "displayname.oyuncu"
